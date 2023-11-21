@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/listagem.css">
+    <title>LISTAGENS</title>
+</head>
+<body>
+   
+
+    <div class="container"> 
+        <div class="row">
+            
+        </div>
+
+        <div class="box-dados" > <!--Caixa com informação -->
+            <div class="item-lista" onclick="toggleDetails('detalhes1')">             
+                
+            </div>
+
+            <div class="detalhes" id="detalhes1">
+                
+                <div class="row">
+                    <div class="col-6">
+                        <button id="salvar">Salvar</button>
+                    </div>
+                    <div class="col-6">
+                        <button id="pontos">Consultar pontos</button>
+                        <button id="multas">Consultar multas</button>
+                    </div>
+                </div>
+            </div>
+                     
+        </div> 
+
+        
+        
+    </div>
+
+<script>
+        function toggleDetails(id) {
+          const detalhes = document.getElementById(id);
+          detalhes.style.display = detalhes.style.display === 'block' ? 'none' : 'block';
+        }
+
+    $(document).ready(function() {
+        $(".item-lista").click(function() {
+            $(this).find(".detalhes").toggle();
+        });
+    });
+</script>
+
+  
+</body>
+</html>

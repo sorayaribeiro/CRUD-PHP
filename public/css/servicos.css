@@ -1,0 +1,29 @@
+#botoes{
+    margin-top: 80px;
+    
+}
+
+#botoes button{
+   width: 32%;
+   height: 70px;
+   border: none;
+   background-color: #333;
+   color: #fff;
+   padding: 10px 40px;
+   margin: 5px;
+   border-radius: 5px;
+   transition: transform 0.5s;
+   font-weight: 400;
+}
+
+#botoes button:hover{
+    background-color: #111;
+    transform: scale(0.9);
+    
+}
+
+
+
+#botoes a{
+    
+}

@@ -1,0 +1,138 @@
+html{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #666;
+    overflow: hidden;
+}
+
+.row{
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    padding: 0;
+    margin: 0;
+}
+
+.containner{
+    width: 20%;
+    height: 100vh;
+    display: flex;   
+    position: fixed;
+}
+
+#container{
+    width: 80%;
+    height: 100vh;
+    margin-left: 20%;   
+    overflow-y: auto;
+}
+
+.boxContainer{
+    width: 98%;
+    height: auto;
+    margin: auto auto;
+    padding: 40px 0px;
+ 
+}
+
+.navbar{  
+    width: 98%;  
+    height: 98%;    
+    background-color: #333;    
+    padding: 5px;
+    margin: auto auto auto 5px;
+    
+    
+}
+
+.perfil{
+    width: 50%;
+    margin:auto;
+    
+ 
+}
+
+.perfil img{
+    width: 100%;    
+    margin: 0 auto;
+}
+
+.sidebar{
+    width: 100%;
+    height: auto;
+    font-size: 0.9em;
+    
+    
+}
+
+.sidebar a{
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    padding-left: 30px;
+    align-items: center;
+}
+
+
+
+.hover{
+    display: flex;    
+    margin:2px;
+    padding: 0;
+   
+}
+
+.hover:hover{
+    color: rgb(167, 215, 255);
+}
+
+.hover span{
+   font-size: 1.2em;
+  
+}
+
+.acount{
+    width: 94%;
+    margin: auto auto 0 auto;
+    color: white;
+  
+}
+
+.material-symbols-outlined{
+    margin-right: 5px;
+}
+
+.pagina-atual{
+    color: rgb(122, 122, 122);
+}
+
+.name{
+
+}
+
+.exit{
+
+}
+
+.logo{
+   
+}
+
+#titulo{
+    color: #fff;
+}
+
+@media (max-width : 1095px) {
+    .containner.navbar a span{
+        font-size: 1em;
+    }
+}

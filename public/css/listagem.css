@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #c5c5c5;
+    min-height: 100VH;
+    
+}
+
+#logo{
+  position: absolute;
+}
+
+.container{
+    width: 100vw;
+    height: auto;   
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    
+  }
+  .box-dados{
+   
+  }
+
+  .item-lista{
+    background-color: #ececec;
+    margin-top: 5px;
+    padding: 10px;
+  }
+
+  #dados{
+
+  }
+
+  .detalhes{
+    width: 100%; 
+    display: none;
+    background-color: #ececec;
+   padding: 10px;
+  }
+  
+  #defesa {
+    width: 100%;    
+ 
+  }
+
+  .itens{
+
+  }
+  
+  .details {
+    width: 100%;
+    height: auto;
+    display: none;
+    justify-content: space-between;
+    
+  }
+
+
+  table{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 20px;    
+  }
+
+  tr.divider {
+    border-top: 5px solid #ececec; 
+  }
+
+  td input{
+    border: 1px solid #c4c4c4;
+  }
+
+  .item-lista th{
+    background-color: #ac4a09;
+    color: white;
+  }
+  
+ th, td{
+    background-color: #ccc;
+    padding: 0 5px;
+  }
+
+  tr{    
+    line-height: 30px;
+    
+  }
+
+
+
+  #salvar, #pontos, #multas{
+    width: 200px;
+    height: 40px;
+    margin: 10px 0;
+    background-color: rgb(106, 108, 117);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+  }

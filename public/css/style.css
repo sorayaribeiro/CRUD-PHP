@@ -36,11 +36,10 @@ h2{
 }
 
 .boxContainer{
-    width: 98%;
+    width: 100%;
     height: auto;
-    margin: auto auto;
-    padding: 40px 0px;
- 
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .navbar{  
@@ -130,6 +129,13 @@ h2{
 #titulo{
     color: #fff;
 }
+
+.exit a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
 
 @media (max-width : 1095px) {
     .containner.navbar a span{

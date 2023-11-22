@@ -9,14 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../public/css/style.css">
-    <link rel="stylesheet" href="../public/css/cadastro.css">  
-    <title>Cadastro de Contrato</title>
+    <link rel="stylesheet" href="../public/css/pages.css">
+    <link rel="icon" type="image/x-icon" href="../source/img/logo.png">
+    <title><?php echo $titulo; ?></title>
     
 </head>
 <body>   
 
     <div class="">
-<!-- ----------------------------------------------------------------------Sidebar -->
         <div class="containner">
             <div class="navbar">
                 <div class="perfil">
@@ -25,42 +25,32 @@
                 
                 <div class="sidebar">
 
-                    <a href="perfilUsuario.html" class="hover">
+                    <a href="perfil.php" class="hover">
                         <span class="material-symbols-outlined">person</span>
                         <span>Perfil do Usuário</span>                            
                     </a>
 
-                    <!-- <a href="perfilEmpresa.html" class="hover">
-                        <span class="material-symbols-outlined">store</span>
-                        <span>Perfil da empresa</span>                            
-                    </a> -->
-
-                    <!-- <a href="rh.html" class="hover">
-                        <span class="material-symbols-outlined">person_play</span>
-                        <span>Recursos Humanos</span>                            
-                    </a> -->
-
-                    <a href="financeiro.html" class="hover">
+                    <a href="financeiro.php" class="hover">
                         <span class="material-symbols-outlined">payments</span>
                         <span>Financeiro</span>                            
                     </a>
 
-                    <a href="cadastro.html" class="hover">
-                        <span class="material-symbols-outlined pagina-atual">groups</span>
-                        <span class="pagina-atual">Clientes</span>                            
+                    <a href="cadastro.php" class="hover">
+                        <span class="material-symbols-outlined">groups</span>
+                        <span class="">Cadastro</span>                            
                     </a>
 
-                    <a href="marketing.html" class="hover">
+                    <a href="marketing.php" class="hover">
                         <span class="material-symbols-outlined">support_agent</span>
                         <span>Marketing</span>                           
                     </a>
 
-                    <a href="servicos.html" class="hover">
+                    <a href="servicos.php" class="hover">
                         <span class="material-symbols-outlined">folder_open</span>
                         <span>Serviços</span>                            
                     </a>
 
-                    <a href="dashboard.html" class="hover">
+                    <a href="painel.php" class="hover">
                         <span class="material-symbols-outlined">trending_up</span>
                         <span>Painel</span>                                
                     </a>
@@ -72,11 +62,10 @@
                         <span>Nome do funcionario</span>
                     </div>
                     <div class="exit">                    
-                        <span>Sair</span>
+                        <a href="sair.php">Sair</a>
                     </div>
                 </div>
             </div>
         </div>
-<!-- ----------------------------------------------------------------------Corpo-->
 
         <div id="container" class="">

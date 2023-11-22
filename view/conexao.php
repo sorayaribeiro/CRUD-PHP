@@ -1,11 +1,11 @@
 <?php
 
 $servidor="localhost";
-$username="root";
-$password= "" ;
+$usuario="root";
+$senha= "" ;
 $dbname="cnhhelp";
 
-$conexao = new mysqli($servidor,$username,$password,$dbname);
+$conexao = new mysqli($servidor,$usuario,$senha,$dbname);
 
 // if($conexao->connect_errno)
 // {

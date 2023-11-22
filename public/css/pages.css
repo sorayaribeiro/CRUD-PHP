@@ -122,14 +122,22 @@ hr {
 
 
 
-.contratosSalvos {
+.listacontratos {
     width: 100%;
     height: 100%;
     color: #fff;
-    box-shadow: 5px 5px 5px 5px rgb(39, 39, 39);
-    margin-top: 50px;
-    background-color: #313131;
+
 }
+
+#listaContratos {
+   
+}
+
+#listaContratos th{
+    padding: 5px;
+}
+
+
 
 .box-dados {}
 
@@ -139,7 +147,9 @@ hr {
     padding: 10px;
 }
 
-.item-lista table thead tr {}
+.item-lista table thead tr {
+   
+}
 
 .item-lista table thead td {}
 
@@ -182,6 +192,12 @@ hr {
     border-radius: 0;
     border: none;
 }
+
+.listacontratos{
+    padding: 20px;
+}
+
+
 
 
 /* Page serviços */

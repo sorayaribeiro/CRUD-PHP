@@ -3,13 +3,13 @@
 
   if(isset($_POST['submit']))
   {            
-    $username= $_POST['username'];
+    $usuario= $_POST['usuario'];
     $nome= $_POST['nome'];
     $email= $_POST['email'];
     $senha= $_POST['senha'];
       
 
-  $result = mysqli_query($conexao, "INSERT INTO usuarios(username, nome, email, senha) VALUES('$username','$nome','$email','$senha')");
+  $result = mysqli_query($conexao, "INSERT INTO usuarios(usuario, nome, email, senha) VALUES('$usuario','$nome','$email','$senha')");
           
   header('Location: index.php');
   }
@@ -29,8 +29,8 @@
         
         <form action="cadastroUsuario.php" method="post">
            
-            <label for="username">Usuário:</label>
-            <input type="text" id="username" name="username"><br><br>
+            <label for="usuario">Usuário:</label>
+            <input type="text" id="usuario" name="usuario"><br><br>
 
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome"><br><br>

@@ -20,7 +20,7 @@
         <div class="containner">
             <div class="navbar">
                 <div class="perfil">
-                    <img src="../source/img/logCNHHELP.png" alt="logo" class="logo">
+                    <img src="../public/img/logCNHHELP.png" alt="logo" class="logo">
                 </div>
                 
                 <div class="sidebar">

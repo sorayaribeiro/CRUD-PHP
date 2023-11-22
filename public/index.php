@@ -12,12 +12,12 @@
 </head>
 <body>
     <div class="login-container">
-        <img src="../source/img/logCNHHELP.png" id="logoLogin" alt="Logo">
+        <img src="img/logCNHHELP.png" id="logoLogin" alt="Logo">
         
         <form action="../view/testelogin.php" method="post">
             <div class="form-group">
-                <label for="username">Usuário:</label>
-                <input type="text" id="username" name="username" placeholder="Informe seu usuário">
+                <label for="usuario">Usuário:</label>
+                <input type="text" id="usuario" name="usuario" placeholder="Informe seu usuário">
             </div>
             <div class="form-group">
                 <label for="senha">Senha:</label>

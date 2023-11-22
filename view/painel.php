@@ -4,13 +4,15 @@
 
     session_start();
     // print_r($_SESSION);
-    if((!isset($_SESSION['username']) == true) and (!isset($_SESSION['senha']) == true))
+    if((!isset($_SESSION['usuario']) == true) and (!isset($_SESSION['senha']) == true))
     {
-        unset($_SESSION['username']);
+        unset($_SESSION['usuario']);
         unset($_SESSION['senha']);
         header('Location: ../public/index.php');
     }
-    $logado = $_SESSION['username'];
+    $logado = $_SESSION['usuario'];
+
+    
 ?>
             <div class="boxContainner row">
                 <div class="" id="titulo">

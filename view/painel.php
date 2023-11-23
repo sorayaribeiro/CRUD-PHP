@@ -2,21 +2,10 @@
     $titulo = "Dashboard";
     include "sidebar.php";
 
-    session_start();
-    // print_r($_SESSION);
-    if((!isset($_SESSION['usuario']) == true) and (!isset($_SESSION['senha']) == true))
-    {
-        unset($_SESSION['usuario']);
-        unset($_SESSION['senha']);
-        header('Location: ../public/index.php');
-    }
-    $logado = $_SESSION['usuario'];
-
-    
 ?>
-            <div class="boxContainner row">
+            <div class="boxContainer">
                 <div class="" id="titulo">
-                    <span class=""><h2>Painel</h2></span>
+                    <h2>Painel</h2>
                 </div>
     
                 <div class="painel" id="mes">

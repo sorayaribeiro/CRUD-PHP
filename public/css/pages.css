@@ -2,7 +2,7 @@
 
 #titulo h2 {
     font-size: 1.6em;
-    margin-bottom: 20px;
+    
 
 }
 
@@ -123,18 +123,33 @@ hr {
 
 
 .listacontratos {
-    width: 100%;
-    height: 100%;
-    color: #fff;
+   
 
 }
 
-#listaContratos {
-   
+#listaContratos{
+    background-color: rgba(0,0,0,0.3);
+    padding: 0 20px;
+    
+}
+
+#listaContratos table thead{
+    color: #fff;
+    background-color: #333;
 }
 
 #listaContratos th{
     padding: 5px;
+    
+}
+#listaContratos td{
+    padding: 5px;
+    color: #fff;
+    
+}
+#listaContratos tr{
+    border: 1px solid #c2c2c2;
+    
 }
 
 

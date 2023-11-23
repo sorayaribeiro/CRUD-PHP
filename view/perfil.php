@@ -5,10 +5,16 @@
 ?>
 
 
+    <div class="boxContainer">
+        <div class="" id="titulo">
+            <h2>Perfil do Usuário</h2>
+
+        </div>
+
+    </div>
+        
 
 
-
-<h1>Perfil do Usuário</h1>
 
 
 

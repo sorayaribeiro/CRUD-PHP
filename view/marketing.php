@@ -4,8 +4,17 @@
 
 ?>
 
+    <div class="boxContainer">
+        <div class="" id="titulo">
+            <h2>Marketing</h2>
 
-<h1>Marketing</h1>
+        </div>
+        
+
+
+    </div>
+
+
 
 
 

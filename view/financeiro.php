@@ -1,13 +1,21 @@
 <?php
     $titulo = "Financeiro";
-    include "sidebar.php";
-
+    include_once "sidebar.php";
 ?>
 
 
-<h1>Financeiro</h1>
+    <div class="boxContainer">
+        <div class="" id="titulo">
+                <h2>Financeiro</h2>
+
+            </div>
+
+    </div>
+
+
+
 
 <?php
-    include "footer.php";
+    include_once "footer.php";
 
 ?>

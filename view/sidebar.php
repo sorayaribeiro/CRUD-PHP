@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../public/css/style.css">
     <link rel="stylesheet" href="../public/css/pages.css">
-    <link rel="icon" type="image/x-icon" href="../source/img/logo.png">
+    <link rel="icon" type="image/x-icon" href="../public/img/logo.png">
     <title><?php echo $titulo; ?></title>
     
 </head>
@@ -27,7 +27,7 @@
 
                     <a href="perfil.php" class="hover">
                         <span class="material-symbols-outlined">person</span>
-                        <span>Perfil do Usuário</span>                            
+                        <span>Usuário</span>                            
                     </a>
 
                     <a href="financeiro.php" class="hover">
@@ -35,9 +35,9 @@
                         <span>Financeiro</span>                            
                     </a>
 
-                    <a href="cadastro.php" class="hover">
+                    <a href="contratos.php" class="hover">
                         <span class="material-symbols-outlined">groups</span>
-                        <span class="">Cadastro</span>                            
+                        <span class="">Contratos</span>                            
                     </a>
 
                     <a href="marketing.php" class="hover">
@@ -62,7 +62,7 @@
                         <span>Nome do funcionario</span>
                     </div>
                     <div class="exit">                    
-                        <a href="sair.php">Sair</a>
+                        <span>Sair</span>
                     </div>
                 </div>
             </div>

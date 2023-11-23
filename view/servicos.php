@@ -4,12 +4,9 @@
 ?>
 
 
-            <div class="boxContainner">
-                    <div class="row" id="titulo">
-
-                        <span class="">
-                            <h2>Serviços</h2>
-                        </span>
+            <div class="boxContainer">
+                    <div class="" id="titulo">                        
+                            <h2>Serviços</h2>                       
 
                     </div>
 

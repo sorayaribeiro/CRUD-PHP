@@ -22,16 +22,16 @@ h2{
 }
 
 .containner{
-    width: 20%;
+    width: 14%;
     height: 100vh;
     display: flex;   
     position: fixed;
 }
 
 #container{
-    width: 80%;
+    width: 85%;
     height: 100vh;
-    margin-left: 20%;   
+    margin-left: 15%;   
     overflow-y: auto;
 }
 
@@ -40,6 +40,7 @@ h2{
     height: auto;
     display: flex;
     flex-flow: column wrap;
+    margin-top: 20px;
 }
 
 .navbar{  
@@ -129,13 +130,6 @@ h2{
 #titulo{
     color: #fff;
 }
-
-.exit a{
-    list-style: none;
-    text-decoration: none;
-    color: #fff;
-}
-
 
 @media (max-width : 1095px) {
     .containner.navbar a span{

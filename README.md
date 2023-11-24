@@ -1,6 +1,6 @@
 # CRUD completo php
-CRUD completo com login e logout de sistema com cadastro de usuário. 
-Cadastro de contratos com leitura, atualização s e exclusão de contratos.
+CRUD completo com login e logout de sistema com cadastro de usuário. <br>
+Cadastro de contratos com leitura, atualização e exclusão de contratos.
 
 Projeto Pós-Graduação FACUMINAS
 Crud completo em php.

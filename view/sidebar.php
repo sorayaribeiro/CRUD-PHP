@@ -1,3 +1,12 @@
+<?php
+    session_start();
+    
+    if((!isset($_SESSION['usuario']) == true) and (!isset($_SESSION['senha']) == true)){
+        header ('Location: ../public/index.php');
+    }
+    $logado = $_SESSION['usuario'];
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -59,10 +68,10 @@
 
                 <div class="acount">
                     <div class="name">
-                        <span>Nome do funcionario</span>
+                        <span><?php echo $logado ?></span>
                     </div>
                     <div class="exit">                    
-                        <span>Sair</span>
+                        <a href="sair.php">Sair</a>
                     </div>
                 </div>
             </div>

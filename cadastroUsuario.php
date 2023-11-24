@@ -1,15 +1,15 @@
 <?php
-  include "../controller/conexao.php";
+  include "../view/conexao.php";
 
   if(isset($_POST['submit']))
   {            
-    $usuario= $_POST['usuario'];
+    $username= $_POST['username'];
     $nome= $_POST['nome'];
     $email= $_POST['email'];
     $senha= $_POST['senha'];
       
 
-  $result = mysqli_query($conexao, "INSERT INTO usuarios(usuario, nome, email, senha) VALUES('$usuario','$nome','$email','$senha')");
+  $result = mysqli_query($conexao, "INSERT INTO usuarios(username, nome, email, senha) VALUES('$username','$nome','$email','$senha')");
           
   header('Location: index.php');
   }
@@ -29,8 +29,8 @@
         
         <form action="cadastroUsuario.php" method="post">
            
-            <label for="usuario">Usuário:</label>
-            <input type="text" id="usuario" name="usuario"><br><br>
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username"><br><br>
 
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome"><br><br>

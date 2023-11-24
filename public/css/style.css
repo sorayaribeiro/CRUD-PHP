@@ -40,7 +40,6 @@ h2{
     height: auto;
     display: flex;
     flex-flow: column wrap;
-    margin-top: 20px;
 }
 
 .navbar{  
@@ -119,8 +118,10 @@ h2{
 
 }
 
-.exit{
-
+.exit a{
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 .logo{

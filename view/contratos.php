@@ -39,7 +39,7 @@
                     
                     <div class="row" id="cadastrocontrato">
                         <div class="dados">
-                            <form action="cadastro.php" method="post">
+                            <form action="contratos.php" method="post">
                                 <table>
                                     <tr>
                                         <td>
